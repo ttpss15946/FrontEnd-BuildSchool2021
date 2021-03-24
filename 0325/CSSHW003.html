@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: block;
+        }
+        .page{
+            width: 1200;
+        }
+        .box{
+            width: 850px;
+            height: 660px;
+            background-color: rgba(247, 214, 255, 0);
+            position: relative;
+            align-items: center;
+            margin-left: 350px;
+            margin-bottom: 100px;
+        }
+        .box02{
+            width: 850px;
+            height: 580px;
+            background-color: rgba(247, 214, 255, 0);
+            position: relative;
+            align-items: center;
+            margin-left: 350px;
+            margin-bottom: 100px;
+        }
+
+        .box_pic{
+            position: absolute;
+            top: 100px;
+            left: 125px;
+        }
+        .box_pic02{
+            position: absolute;
+            top: 100px;
+            left: 30px;
+        }
+
+        .left_box{
+            position: absolute;
+            width: 250px;
+            height: 270px;
+            background-color: gold;
+        }
+        .left_box .title{
+            display: flex;
+            align-items: flex-end;
+            font-size: 25px;
+            background-color: rgb(192, 6, 6);
+        }
+        .right_box{
+            position: absolute;
+            left: 600px;
+            width: 250px;
+            height: 270px;
+            background-color: gold;
+        }
+        .red_box .title{
+            display: flex;
+            align-items: flex-end;
+            font-size: 25px;
+            background-color: rgb(192, 6, 6);
+
+        }
+
+        .title .one {
+            text-align: center;
+            font-size: 90px;
+        }
+        .one {
+            writing-mode: vertical-rl;
+        }
+        
+        .red_box .black_box{
+            height: 180px;
+            padding: 10px 10px;
+            line-height: 1.2;
+            background-color: rgb(31, 30, 30);
+        }
+        
+        .red_box{
+            color: #fff;
+        }
+        
+
+        .gray_box{
+            width: 400px;
+            height: 240px;
+            background-color: rgba(128, 128, 128, 0.26);
+            position: absolute;
+            top: 30px;
+            right:0px;
+        }
+        .gray_box02{
+            width: 500px;
+            height: 350px;
+            background-color: rgba(128, 128, 128, 0.26);
+            position: absolute;
+            top: 50px;
+            right:150px;
+        }
+        .down_box{
+            width: 520px;
+            height: 220px;
+            background-color: rgb(230, 230, 230);
+            position: absolute;
+            top: 440px;
+            left: 20px;
+            
+        }
+        .down_box02{
+            width: 680px;
+            height: 140px;
+            background-color: rgb(230, 230, 230);
+            position: absolute;
+            top: 440px;
+            right: 0px;
+            
+        }
+        .down_box .point_01{
+            line-height: 1;
+            margin-top: -20px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        .down_box02 .point_01{
+            line-height: 1;
+            margin-top: -20px;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+
+        .down_box .title{
+            font-size: 14px;
+            color: rgb(192, 6, 6);
+            margin: 5px;
+            margin-top: -15px;
+            margin-left: 15px;
+            
+        }
+        .down_box02 .title{
+            font-size: 15px;
+            color: rgb(192, 6, 6); 
+            margin: 5px;
+            margin-top: -15px;
+            margin-left: 15px;  
+        }
+
+        .down_box .title h4::after{
+            content: "———————————————";
+            font-size: 18px;
+            
+        }
+        .down_box02 .title h4::after{
+            content: "—————————————————————";
+            font-size: 18px;
+        }
+        
+        .blackbox_01 p{
+            display: inline-block;
+            padding: 5px 4px;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            border-radius: 2px;
+            font-size: 3px;
+        }
+
+        .youtube{
+            position: absolute;
+            top: 280px;
+            right:115px;
+        }
+        .youtube_02{
+            position: absolute;
+            top: 280px;
+            left:0px;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="box">
+        <div>
+            <div class="gray_box">
+            </div>
+            <div class="box_pic">
+                <img src="/redcar.png" alt="" style="width: 600px; height: 360px;">
+            </div>
+            <div class="left_box">
+                <section class="red_box">
+                <div class="title">
+                    <span class="one">01</span>
+                    <h4 >操控樂趣</h4>
+                </div>
+                <div class="black_box">
+                    <h3>人人滿意的駕駛體驗</h3>
+                        <p>透過最佳重量分配，實現平順起步、直線穩定加速，過彎同時保持車身平穩，
+                        帶給駕駛更靈敏的道路反饋，享受隨心馳騁的行駛快感。</p>
+                </div>
+                </section>
+            </div>
+            <section class="down_box">
+                <div class="title">
+                <h4> 因為我們做了這些革新</h4>
+                </div>
+                <div class="point_01">
+                    <div class="blackbox_01">
+                        <p>低重心設計</p>
+                        <li>
+                            透過低重心設計，不僅呈現更低伏的外觀，更能減少車身側傾，保持高速行駛穩定性
+                        </li>
+                    </div>
+                    <div class="blackbox_01">
+                        <p>車體剛性強化</p>
+                        <li>
+                            車身結構採用超高強度鋼材，提高車輛穩定性，同時藉由雷射強化焊接技術，大幅增加焊點數量，提升車身抗扭剛性，強化駕馭穩定性及安全性。
+                        </li>
+                    </div>
+                    <div class="blackbox_01">
+                        <p>四輪獨立懸吊</p>
+                        <li>
+                            搭載全新四輪獨立懸吊設定，透過懸吊的高承載強度，保持輪胎抓地力，同時兼顧轉向靈敏度與清晰路感回饋，提升駕馭樂趣。
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <div class="youtube">
+                <img src="/擷取.JPG" alt="" style="width: 40px; height: 30px;">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="box02">
+        <div class="gray_box02">
+        </div>
+        <div class="box_pic02">
+            <img src="/02.JPG" alt="" style="width: 600px; height: 360px;">
+        </div>
+        <div class="right_box">
+            <section class="red_box">
+            <div class="title">
+                <h4 >安全守護</h4>
+                <span class="one">02</span>
+            </div>
+            <div class="black_box">
+                <h3>行車更安心的高剛性車體</h3>
+                    <p>您的愛車會妥善保護您，強悍穩固的車身可以使您安全無虞。世界級的安全科技讓您輕鬆自如享受旅程、毫無後顧之憂。</p>
+            </div>
+            </section>
+        </div>
+        <section class="down_box02">
+            <div class="title">
+            <h4> 因為我們做了這些革新</h4>
+            </div>
+            <div class="point_01">
+                <div class="blackbox_01">
+                    <p>主動安全</p>
+                    <li>
+                        以先進的TSS系統，主動偵測路況，輔助駕駛判斷路況並維持行車安全
+                    </li>
+                </div>
+                <div class="blackbox_01">
+                    <p>被動安全</p>
+                    <li>
+                        堅固的高剛性車體，使用熱沖壓材料的高強度況扭鋼板，強化座艙對意外事故的保護力。
+                    </li>
+                </div>
+            </div>
+        </section>
+        <div class="youtube_02">
+            <img src="/擷取.JPG" alt="" style="width: 40px; height: 30px;">
+        </div>
+    </div>
+
+
+    <div class="box">
+        <div>
+            <div class="gray_box">
+            </div>
+            <div class="box_pic">
+                <img src="/pretty.jpg" alt="" style="width: 600px; height: 360px;">
+            </div>
+            <div class="left_box">
+                <section class="red_box">
+                <div class="title">
+                    <span class="one">03</span>
+                    <h4 >乘坐舒適</h4>
+                </div>
+                <div class="black_box">
+                    <h3>令人放鬆舒適的車室空間</h3>
+                        <p>車室空間設計著重人體工學，透過方向盤、踏板等位置優化，追求更舒適的駕駛位置，並以新型座椅設計，提高座椅包覆性，致力實現長途駕駛不疲勞的舒適駕馭體驗。</p>
+                </div>
+                </section>
+            </div>
+            <section class="down_box">
+                <div class="title">
+                <h4> 因為我們做了這些革新</h4>
+                </div>
+                <div class="point_01">
+                    <div class="blackbox_01">
+                        <p>駕駛位置最佳化</p>
+                        <li>
+                            針對駕駛位置進行徹底的修改，讓駕馭者可以如同握手般自然且舒適地操縱方向盤。
+                        </li>
+                    </div>
+                    <div class="blackbox_01">
+                        <p>駕馭視野佳</p>
+                        <li>
+                            考量駕駛作進車內的高度，透過前擋風玻璃位置的調整，達到盲區極小化，使駕駛視野更開闊，同步提升駕馭安全。
+                        </li>
+                    </div>
+                    <div class="blackbox_01">
+                        <p>更寧靜的車室</p>
+                        <li>
+                            採用最新三層結構的隔音材料，與引擎、變速箱的零件改革，將座艙的震動抑制在最小限度，提供乘客安靜的感受。
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <div class="youtube">
+                <img src="/擷取.JPG" alt="" style="width: 40px; height: 30px;">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="box02">
+        <div class="gray_box02">
+        </div>
+        <div class="box_pic02">
+            <img src="https://picsum.photos/600/360/?random=1">
+        </div>
+        <div class="right_box">
+            <section class="red_box">
+            <div class="title">
+                <h4 >以人為本</h4>
+                <span class="one">04</span>
+            </div>
+            <div class="black_box">
+                <h3>使用者導向的貼心設計</h3>
+                    <p>藉由高度人性化的介面整合傳遞車輛資訊豐富日常駕駛體驗。從提升油耗表現到行李廂空間最適化,均細心考量,更加貼近使用者真正所需與習慣,並給予即時回應。</p>
+            </div>
+            </section>
+        </div>
+        <section class="down_box02">
+            <div class="title">
+            <h4> 因為我們做了這些革新</h4>
+            </div>
+            <div class="point_01">
+                <div class="blackbox_01">
+                    <p>優異油耗表現</p>
+                    <li>
+                        以 AURIS為例,更強勁的高效引擎將熱效率提升至40%,達到世界級水準,屢屢突破燃油效率新境界。
+                    </li>
+                </div>
+                <div class="blackbox_01">
+                    <p>行李箱空間最適化</p>
+                    <li>
+                        以 PRIUS為例,透過將電池位置移到後座下方,譲行李廂擁有更大的空間。
+                    </li>
+                </div>
+            </div>
+        </section>
+        <div class="youtube_02">
+            <img src="/擷取.JPG" alt="" style="width: 40px; height: 30px;">
+    </div>
+</div>
+
+    <div class="box">
+        <div>
+            <div class="gray_box">
+            </div>
+            <div class="box_pic">
+                <img src="/05.jpg" alt="" style="width: 600px; height: 360px;">
+            </div>
+            <div class="left_box">
+                <section class="red_box">
+                <div class="title">
+                    <span class="one">05</span>
+                    <h4 >引以為傲</h4>
+                </div>
+                <div class="black_box">
+                    <h3>極具吸引力的精心設計</h3>
+                        <p>TNGA車款擁有讓人忍不住回頭的新潮外觀讓駕駛充滿自信的駕馭快!不僅讓車主能展現個人風格・也能讓擁有者都能引以為傲。</p>
+                </div>
+                </section>
+            </div>
+            <section class="down_box">
+                <div class="title">
+                <h4> 因為我們做了這些革新</h4>
+                </div>
+                <div class="point_01">
+                    <div class="blackbox_01">
+                        <p>設計概念</p>
+                        <li>
+                            TNGA低重心設計・不僅呈現更低伏的運動化外觀更講究高品質內装的一致性。
+                        </li>
+                    </div>
+                    <div class="blackbox_01">
+                        <p>環保概念</p>
+                        <li>
+                            為了對環境保護盡一份心力,我們全面提升傳統引、變速箱與油電複合動力的動力效能。
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <div class="youtube">
+                <img src="/擷取.JPG" alt="" style="width: 40px; height: 30px;">
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
